@@ -1,0 +1,159 @@
+{
+  "results": [
+    {
+      "columns": [
+        "joao",
+        "l",
+        "pages"
+      ],
+      "data": [
+        {
+          "row": [
+            {
+              "gender": "M",
+              "name": "João",
+              "age": "28"
+            },
+            {},
+            {
+              "name": "The Beatles",
+              "category": "Músico/Banda"
+            }
+          ],
+          "meta": [
+            {
+              "id": 2,
+              "type": "node",
+              "deleted": false
+            },
+            {
+              "id": 4,
+              "type": "relationship",
+              "deleted": false
+            },
+            {
+              "id": 6,
+              "type": "node",
+              "deleted": false
+            }
+          ],
+          "graph": {
+            "nodes": [
+              {
+                "id": "2",
+                "labels": [
+                  "User"
+                ],
+                "properties": {
+                  "gender": "M",
+                  "name": "João",
+                  "age": "28"
+                }
+              },
+              {
+                "id": "6",
+                "labels": [
+                  "Page"
+                ],
+                "properties": {
+                  "name": "The Beatles",
+                  "category": "Músico/Banda"
+                }
+              }
+            ],
+            "relationships": [
+              {
+                "id": "4",
+                "type": "LIKES",
+                "startNode": "2",
+                "endNode": "6",
+                "properties": {}
+              }
+            ]
+          }
+        },
+        {
+          "row": [
+            {
+              "gender": "M",
+              "name": "João",
+              "age": "28"
+            },
+            {},
+            {
+              "name": "Coca-Cola",
+              "category": "Comida/Bebida"
+            }
+          ],
+          "meta": [
+            {
+              "id": 2,
+              "type": "node",
+              "deleted": false
+            },
+            {
+              "id": 3,
+              "type": "relationship",
+              "deleted": false
+            },
+            {
+              "id": 5,
+              "type": "node",
+              "deleted": false
+            }
+          ],
+          "graph": {
+            "nodes": [
+              {
+                "id": "2",
+                "labels": [
+                  "User"
+                ],
+                "properties": {
+                  "gender": "M",
+                  "name": "João",
+                  "age": "28"
+                }
+              },
+              {
+                "id": "5",
+                "labels": [
+                  "Page"
+                ],
+                "properties": {
+                  "name": "Coca-Cola",
+                  "category": "Comida/Bebida"
+                }
+              }
+            ],
+            "relationships": [
+              {
+                "id": "3",
+                "type": "LIKES",
+                "startNode": "2",
+                "endNode": "5",
+                "properties": {}
+              }
+            ]
+          }
+        }
+      ],
+      "stats": {
+        "contains_updates": false,
+        "nodes_created": 0,
+        "nodes_deleted": 0,
+        "properties_set": 0,
+        "relationships_created": 0,
+        "relationship_deleted": 0,
+        "labels_added": 0,
+        "labels_removed": 0,
+        "indexes_added": 0,
+        "indexes_removed": 0,
+        "constraints_added": 0,
+        "constraints_removed": 0
+      }
+    }
+  ],
+  "errors": [],
+  "responseTime": 31
+}

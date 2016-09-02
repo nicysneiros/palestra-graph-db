@@ -1,0 +1,2 @@
+
+g.V.has(‘name’,’João’).out(‘LIKES’)*.name

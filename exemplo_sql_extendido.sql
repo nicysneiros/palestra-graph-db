@@ -1,0 +1,2 @@
+
+SELECT EXPAND( BOTH('LIKES') ) FROM User WHERE name=”João”
